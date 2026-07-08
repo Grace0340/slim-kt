@@ -1,0 +1,48 @@
+[
+  {
+    "dataset": "xes3g5m",
+    "n_items_with_text": 7652,
+    "llm_calls": 9162,
+    "llm_output_tokens_est": 394539,
+    "tokenizer": "Qwen2.5",
+    "sem_shape": [
+      7653,
+      768
+    ],
+    "semantics_source": "precomputed_roberta"
+  },
+  {
+    "dataset": "dbe_kt22",
+    "n_items_with_text": 212,
+    "llm_calls": 424,
+    "llm_output_tokens_est": 15984,
+    "tokenizer": "Qwen2.5",
+    "sem_shape": [
+      213,
+      384
+    ],
+    "semantics_source": "encoded_minilm",
+    "encode_items": 212,
+    "encode_seconds": 0.161,
+    "encode_items_per_s": 1313.8,
+    "encode_device": "cuda",
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  {
+    "dataset": "eedi",
+    "n_items_with_text": 0,
+    "llm_calls": 0,
+    "llm_output_tokens_est": 0,
+    "tokenizer": "Qwen2.5",
+    "sem_shape": [
+      27614,
+      384
+    ],
+    "semantics_source": "encoded_minilm",
+    "encode_items": 27613,
+    "encode_seconds": 4.139,
+    "encode_items_per_s": 6671.8,
+    "encode_device": "cuda",
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2"
+  }
+]
