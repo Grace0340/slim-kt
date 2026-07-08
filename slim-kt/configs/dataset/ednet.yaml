@@ -1,9 +1,0 @@
-# EdNet-KT1 — TOEIC MCQ; question stems not released (metadata-proxy text).
-dataset:
-  name: ednet
-  has_options: true
-  max_seq_len: 200
-teacher:
-  num_option_labels: 4
-model:
-  num_kcs: null

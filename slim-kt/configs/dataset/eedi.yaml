@@ -1,9 +1,0 @@
-# Eedi (NeurIPS 2020 Education Challenge) — multiple-choice, text available.
-dataset:
-  name: eedi
-  has_options: true
-  max_seq_len: 200
-teacher:
-  num_option_labels: 4
-model:
-  num_kcs: null   # set by preprocessing (subject/construct count)

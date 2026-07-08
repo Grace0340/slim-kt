@@ -1,9 +1,0 @@
-# DBE-KT22 (ANU database course) — small, text-rich, multiple-choice with real stems.
-dataset:
-  name: dbe_kt22
-  has_options: true
-  max_seq_len: 200
-teacher:
-  num_option_labels: 4
-model:
-  num_kcs: null   # set by preprocessing (KC count)
